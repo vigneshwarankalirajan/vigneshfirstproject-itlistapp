@@ -46,9 +46,15 @@ export default function HeroCarousel() {
 
       {/* Content Box */}
 <div className="absolute inset-0 flex items-center justify-start px-30">
+<<<<<<< HEAD
   <div className="bg-white p-6 md:p-8 shadow-xl w-full max-w-xl md:max-w-2xl">
 
     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-orange-500 mb-4 leading-tight break-words">
+=======
+  <div className="bg-white p-8 md:p-5 shadow-1xl max-w-4xl">
+
+    <h2 className="text-5xl md:text-5xl font-bold text-orange-500 mb-4">
+>>>>>>> 6ecc9e7b02e8166d68fc42af00e7bfceae010d62
       {slides[current].title}
     </h2>
 

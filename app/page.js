@@ -61,6 +61,7 @@ export default function Home() {
 
 {/* SERVICE */}
       
+<<<<<<< HEAD
       <section className="py-20 bg-white text-center">
   {/* SECTION HEADER */}
   <div className="mb-16">
@@ -138,6 +139,61 @@ export default function Home() {
         <p>Client Testimonials</p>
         <p>Videos</p>
       </div>
+=======
+      <section className="py-16 bg-gray-100 text-center"> 
+  
+  
+  <h2 className="text-3xl font-bold text-gray-800">OUR SERVICES</h2>
+  <p className="text-gray-500 tracking-widest mt-2 mb-10">
+    YEARS OF EXPERTISE
+  </p>
+
+  {/* Services Grid */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-6 max-w-6xl mx-auto">
+
+    {/* Service 1 */}
+    <div className="bg-white p-6 rounded shadow hover:shadow-lg transition">
+      <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-xl">
+        🔧
+      </div>
+      <h3 className="font-semibold mb-2">IT SERVICES</h3>
+      <p className="text-sm text-gray-500">
+        IT Support<br/>IT Consultancy<br/>IT Performance<br/>IT Projects
+      </p>
+    </div>
+
+    {/* Service 2 */}
+    <div className="bg-white p-6 rounded shadow hover:shadow-lg transition">
+      <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-xl">
+        ⚙️
+      </div>
+      <h3 className="font-semibold mb-2">TECHNOLOGY SOLUTIONS</h3>
+      <p className="text-sm text-gray-500">
+        Virtualisation<br/>Disaster Recovery<br/>Communications<br/>Cloud Computing
+      </p>
+    </div>
+
+    {/* Service 3 */}
+    <div className="bg-white p-6 rounded shadow hover:shadow-lg transition">
+      <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-xl">
+        📄
+      </div>
+      <h3 className="font-semibold mb-2">OUR SPECIALISMS</h3>
+      <p className="text-sm text-gray-500">
+        Private Equity<br/>Not for Profit<br/>Schools & Education<br/>Recruitment
+      </p>
+    </div>
+
+    {/* Service 4 */}
+    <div className="bg-white p-6 rounded shadow hover:shadow-lg transition">
+      <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-xl">
+        👥
+      </div>
+      <h3 className="font-semibold mb-2">RESOURCE CENTER</h3>
+      <p className="text-sm text-gray-500">
+        Blog<br/>Case Studies<br/>Testimonials<br/>Videos
+      </p>
+>>>>>>> 6ecc9e7b02e8166d68fc42af00e7bfceae010d62
     </div>
 
   </div>
@@ -246,6 +302,7 @@ export default function Home() {
   </div>
 </section>
 
+<<<<<<< HEAD
       {/* CTA SECTION */}
 <section className="relative bg-[#E87722] text-white py-12 text-center overflow-hidden">
   {/* OPTIONAL: Subtle Pattern Overlay (Matching the image texture) */}
@@ -267,6 +324,13 @@ export default function Home() {
     </button>
   </div>
 </section>
+=======
+      {/* CTA */}
+      <section className="bg-orange-500 text-white py-16 text-center">
+        <h3 className="text-3xl font-bold mb-4">WE CAN HELP BUILD YOUR PROJECT!</h3>
+        <button className="border px-6 py-2">Contact Us</button>
+      </section>
+>>>>>>> 6ecc9e7b02e8166d68fc42af00e7bfceae010d62
 
       <footer className="w-full bg-white pt-12">
   {/* MAIN FOOTER CONTENT */}
